@@ -40,5 +40,8 @@ return require('packer').startup(function(use)
 		  {'L3MON4D3/LuaSnip'},
 		  {'rafamadriz/friendly-snippets'},
 	  }
+
   }
+  use ("simrat39/rust-tools.nvim")
+  use("nvim-lua/popup.nvim")
 end)
